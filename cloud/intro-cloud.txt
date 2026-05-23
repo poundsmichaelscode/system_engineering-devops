@@ -1,0 +1,38 @@
+Introduction to cloud coumputing
+
+
+
+what is cloud computing ?
+
+cloud is delivery of computing service over the internet such as storage, deployments, networking, security etc
+
+
+
+
+
+
+
+
+SAAS- Software As A Service
+
+
+IAAS- Infastrure as a Service
+
+
+Platform As A Service
+
+
+
+==============Deployment Models==========
+
+1. Public cloud
+
+2. Private Cloud
+
+3.Hybrid Cloud
+
+
+
+
+
+
