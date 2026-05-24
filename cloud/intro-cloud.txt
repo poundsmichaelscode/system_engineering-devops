@@ -6,33 +6,116 @@ what is cloud computing ?
 
 cloud is delivery of computing service over the internet such as storage, deployments, networking, security etc
 
+Cloud computing is the delivery of computing services over the internet. Computing services include common IT infrastructure such as virtual machines, storage, databases, and networking.
+ Cloud services also expand the traditional IT offerings to include things like Internet of Things (IoT), machine learning (ML), and artificial intelligence (AI).
+
+------Importance of cloud computing-----
+1. Cheap to maintain 
+
+2. 
 
 
 
 
+SAAS- Software As A Service  your ready made software is hosted in the cloud you dont have to host ant thing...
 
 
-
-SAAS- Software As A Service
-
-
-IAAS- Infastrure as a Service
+IAAS- Infastrure as a Service-- you rent the cloud use of vitual machine network and all..
 
 
-Platform As A Service
+Platform As A Service- You given a platform to run your applications 
+
+=========Clould Models=========
+
+1. Sevice Model
+
+2. Deloyment Models
 
 
 
 ==============Deployment Models==========
 
-1. Public cloud
+1. Public cloud=== eg AWS, Goggle,AZURE 
 
-2. Private Cloud
+2. Private Cloud === in a private build 
 
-3.Hybrid Cloud
-
-
+3.Hybrid Cloud === if AWs host thier sver in your office is hybrid
 
 
 
 
+Private cloud
+A private cloud is a cloud environment used by a single entity. It evolved naturally from the traditional datacenter model, delivering IT services over the internet while keeping resources dedicated to one organization. Private cloud provides much greater control for your IT team. However, it also comes with greater cost and fewer of the benefits of a public cloud deployment. A private cloud may be hosted from your on-site datacenter, or in a dedicated datacenter offsite, potentially even by a third party.
+
+Public cloud
+A public cloud is built, controlled, and maintained by a third-party cloud provider. With a public cloud, anyone that wants to purchase cloud services can access and use resources. The general public availability is a key difference between public and private clouds.
+
+Hybrid cloud
+A hybrid cloud is a computing environment that uses both public and private clouds in an inter-connected environment. A hybrid cloud environment can be used to allow a private cloud to surge for increased, temporary demand by deploying public cloud resources. Hybrid cloud can be used to provide an extra layer of security. For example, users can flexibly choose which services to keep in public cloud and which to deploy to their private cloud infrastructure.
+
+The following table highlights a few key comparative aspects between the cloud models.
+
+
+
+
+Multicloud
+A fourth, and increasingly likely scenario is a multicloud scenario. In a multicloud scenario, you use multiple public cloud providers. Maybe you use different features from different cloud providers. Or maybe you started your cloud journey with one provider and are in the process of migrating to a different provider. Regardless, in a multicloud environment you deal with two (or more) public cloud providers and manage resources and security in both environments.
+
+
+
+
+
+
+
+=========Benefit Of Cloud Computing=========
+
+
+
+Another major benefit of cloud computing is the scalability of cloud resources. Scalability refers to the ability to adjust resources to meet demand. If you suddenly experience peak traffic and your systems are overwhelmed, the ability to scale means you can add more resources to better handle the increased demand.
+
+
+
+Vertical scaling
+With vertical scaling, if you were developing an app and you needed more processing power, you could vertically scale up to add more CPUs or RAM to the virtual machine. Conversely, if you realized you had over-specified the needs, you could vertically scale down by lowering the CPU or RAM specifications.
+
+Horizontal scaling
+With horizontal scaling, if you suddenly experienced a steep jump in demand, your deployed resources could be scaled out (either automatically or manually). For example, you could add additional virtual machines or containers. In the same manner, if there was a significant drop in demand, deployed resources could be scaled in (either automatically or manually).
+
+
+
+
+Describe the benefits of reliability and predictability in the cloud
+Completed
+100 XP
+2 minutes
+Reliability and predictability are two crucial cloud benefits that help you develop solutions with confidence.
+
+Reliability
+
+Reliability is the ability of a system to recover from failures and continue to function. It's also one of the pillars of the Microsoft Azure Well-Architected Framework.
+
+
+
+Predictability in the cloud lets you move forward with confidence. Predictability can be focused on performance predictability or cost predictability. Both performance and cost predictability are heavily influenced by the Microsoft Azure Well-Architected Framework. Deploy a solution built around this framework and you have a solution whose cost and performance are predictable.
+
+
+
+Performance
+Performance predictability focuses on predicting the resources needed to deliver a positive experience for your customers. Autoscaling, load balancing, and high availability are just some of the cloud concepts that support performance predictability. If you suddenly need more resources, autoscaling can deploy additional resources to meet the demand, and then scale back when the demand drops. Or if the traffic is heavily focused on one area, load balancing will help redirect some of the overload to less stressed areas.
+
+Cost
+Cost predictability is focused on predicting or forecasting the cost of the cloud spend. With the cloud, you can track your resource use in real time, monitor resources to ensure that you’re using them in the most efficient way, and apply data analytics to find patterns and trends that help better plan resource deployments. By operating in the cloud and using cloud analytics and information, you can predict future costs and adjust your resources as needed. You can even use tools like the Azure Pricing Calculator to get an estimate of potential cloud spend.
+
+
+
+Describe sustainability considerations in the cloud
+
+
+
+Sustainability-aligned cloud practices
+Examples of practices that support sustainability and cost efficiency include:
+
+Scaling resources down when demand decreases
+Turning off or deallocating resources that are not in use
+Choosing efficient services and configurations to reduce overprovisioning
+Using governance and monitoring to track usage trends and optimize deployments over time
