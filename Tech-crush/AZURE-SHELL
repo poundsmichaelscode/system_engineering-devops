@@ -1,0 +1,49 @@
+#!/bin/bash
+
+
+#creating group
+
+
+az group create --name MyResourceGroup --location eastus
+
+#Resource group Commands
+
+#create
+az group create \
+  --name ProjectA-RG \
+  --location eastus
+
+
+list 
+az group list --output table
+
+
+
+
+Delete
+
+az group delete --name ProjectA-RG
+
+
+
+
+
+#creating variables
+
+PROJECT="ProjectA"
+
+echo $PROJECT
+
+
+
+Loops (Very Important for Automation)
+
+
+for project in A B C D E
+do
+    az group create \
+      --name Project-$project-RG \
+      --location eastus
+done
+
+

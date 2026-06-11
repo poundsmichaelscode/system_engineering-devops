@@ -1,6 +1,3 @@
-
-
-
 #!/bin/bash
 
 # This script creates Azure Resource Groups automatically
