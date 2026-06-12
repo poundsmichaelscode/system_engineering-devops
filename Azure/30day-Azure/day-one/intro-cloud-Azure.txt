@@ -1,0 +1,116 @@
+
+#========Introduction to Cloud Infrastructure: Describe cloud concepts===========#
+
+
+Microsoft Azure is a cloud computing platform with an ever-expanding set of services to help you build solutions that meet your technical goals. Azure services support everything from simple to complex. You can host simple web services for internet-facing apps, run fully virtualized computers for custom software solutions, or use cloud-based services like remote storage, database hosting, and centralized account management. Azure also offers capabilities in artificial intelligence (AI) and Internet of Things (IoT).
+
+=========Learning Objective ============
+
+
+========Learning objectives=========
+Define cloud computing.
+Describe the shared responsibility model.
+Define cloud models, including public, private, and hybrid.
+Identify appropriate use cases for each cloud model.
+Describe the consumption-based model.
+Compare cloud pricing models.
+
+
+
+=========key nots=========
+
+AZ-900 Domain Area	
+Describe cloud concepts	
+Describe Azure architecture and services	
+Describe Azure management and governance
+
+
+============What is Cloud Computing ?=================
+
+this is the Delivery of computing service over the internet... such as database, storage, AI, IOT,
+
+
+##======== Computing services include common IT infrastructure such as virtual machines, storage, databases, and networking. 
+
+
+
+
+========Describe the shared responsibility model ===============
+
+
+
+
+
+
+When using a cloud provider, you’ll always be responsible for:
+
+What always stays with you
+The information and data stored in the cloud
+Devices that are allowed to connect to your cloud (cell phones, computers, and so on)
+The accounts and identities of the people, services, and devices within your environment
+The cloud provider is always responsible for:
+
+What the provider always owns
+The physical datacenter
+The physical network
+The physical hosts
+Your service model will determine responsibility for things like:
+
+What depends on the service type
+Operating systems
+Network controls
+Applications
+Identity and access
+Infrastructure
+
+
+
+#####==============Define cloud models==================##########
+
+What are cloud models? The cloud models define the deployment type of cloud resources. The three main cloud models are: private, public, and hybrid.
+
+
+Private cloud
+A private cloud is a cloud environment used by a single entity. 
+
+
+
+Public cloud
+A public cloud is built, controlled, and maintained by a third-party cloud provider. With a public cloud, anyone that wants to purchase cloud services can access and use resources. The general public availability is a key difference between public and private clouds.
+
+
+
+Hybrid cloud
+A hybrid cloud is a computing environment that uses both public and private clouds in an inter-connected environment. 
+
+
+
+
+Multicloud
+A fourth, and increasingly likely scenario is a multicloud scenario. In a multicloud scenario, you use multiple public cloud providers. Maybe you use different features from different cloud providers. O
+
+
+==========Azure Arc helps to manage the cloud envinronment
+Azure Arc
+Azure Arc is a set of technologies that helps manage your cloud environment. Azure Arc can help manage your cloud environment whether it's a public cloud solely on Azure, a private cloud in your datacenter, a hybrid configuration, or even a multicloud environment running on multiple cloud providers at once.
+
+
+Azure VMware Solution
+What if you're already established with VMware in a private cloud environment but want to migrate to a public or hybrid cloud? Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability.
+
+
+
+===================Shared responsibility in the cloud============
+
+Summarize this article for me
+As you consider and evaluate public cloud services, it's critical to understand the shared responsibility model and which security tasks the cloud provider handles and which tasks you handle. The workload responsibilities vary depending on whether the workload is hosted on Software as a Service (SaaS), Platform as a Service (PaaS), Infrastructure as a Service (IaaS), or in an on-premises datacenter:
+
+IaaS (Infrastructure as a Service): You manage virtual machines, operating systems, and applications. Examples include Azure Virtual Machines, Azure Disk Storage, and virtual networks.
+PaaS (Platform as a Service): You deploy applications without managing VMs or operating systems. Examples include Azure App Service, Azure Functions, Azure SQL Database, and Azure Storage.
+SaaS (Software as a Service): You use ready-made applications. Examples include Microsoft 365, Dynamics 365, and other cloud applications.
+
+
+
+
+
+
